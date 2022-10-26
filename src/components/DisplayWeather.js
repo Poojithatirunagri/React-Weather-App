@@ -2,7 +2,6 @@ import React from 'react'
 import './displayweather.css'; 
 function DisplayWeather(props){
     const {data}=props;
-    console.log(data.dt);
     return (
             <div className= "displayweather">
              <div className="maincard">
